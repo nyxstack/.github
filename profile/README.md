@@ -8,14 +8,18 @@ High-performance, zero-dependency Go libraries engineered for developers who wan
 **Focused, minimal, rock-solid Go modules:**
 
 - **cli** — Fluent CLI framework with automatic flag inheritance, type-safe args, lifecycle hooks, and full shell completion.  
-- **dotenv** — Strict, spec-accurate dotenv parser with expansion, escapes, struct unmarshalling, and typed env access.  
+- **dotenv** — Strict, standards-accurate dotenv parser with expansion, escapes, struct unmarshalling, and typed env access.  
 - **schema** — Type-safe validation with JSON Schema export, unions, conditionals, i18n messages, and rich error APIs.  
-- **signals** — Clean, channel-based OS signal handling for graceful shutdowns in servers, CLIs, and daemons.  
-- **openapi** — Build full OpenAPI 3.1 specs in Go with reusable components and programmatic generation.  
-- **color** — Zero-dependency ANSI color/styling for expressive, fast terminal output.  
-- **scalarui** — Render and serve Scalar API docs UI directly from Go with full customization.  
-- **i18n** — Minimal, runtime-friendly internationalization system with extraction and pluralization.
-
+- **signals** — Clean, channel-based OS signal handling for graceful shutdowns.  
+- **openapi** — Programmatic OpenAPI 3.1 spec builder with reusable components and full generation.  
+- **color** — Zero-dependency ANSI color/styling for expressive terminal output.  
+- **scalarui** — Serve Scalar API Reference UI directly from Go with full customization.  
+- **i18n** — Zero-dependency internationalization system with extraction and pluralization.
+- **router** — HTTP router with first-class OpenAPI + documentation generation.  
+- **di** — Lightweight dependency-injection container for clean module wiring.  
+- **controller** — Fluent API/controller layer using Go structs + tags for a full backend framework.  
+- **orm** — Type-safe, high-performance ORM with automatic migrations and tooling.  
+- **nyx** — The CLI for bootstrapping and managing NyxStack-based backend services.
 
 ## 🧩 Design Principles
 
