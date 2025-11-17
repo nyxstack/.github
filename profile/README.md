@@ -7,6 +7,13 @@ High-performance, zero-dependency Go libraries engineered for developers who wan
 
 Everything in NyxStack snaps together into **one cohesive backend framework called `nyx`** — a full-stack Go toolkit built from small, sharp, zero-dependency modules.
 
+
+Install the framework:
+
+```bash
+go get github.com/nyxstack/nyx
+```
+
 **Focused, minimal, rock-solid Go packages:**
 
 - **nyx** — The complete NyxStack backend framework combining all modules into one unified developer experience.
