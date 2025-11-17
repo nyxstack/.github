@@ -5,7 +5,12 @@ High-performance, zero-dependency Go libraries engineered for developers who wan
 
 ## 🔧 What We Build
 
-**Focused, minimal, rock-solid Go modules:**
+Everything in NyxStack snaps together into **one cohesive backend framework called `nyx`** — a full-stack Go toolkit built from small, sharp, zero-dependency modules.
+
+**Focused, minimal, rock-solid Go packages:**
+
+- **nyx** — The complete NyxStack backend framework combining all modules into one unified developer experience.
+- **nyx-cli** — The command-line tool used to bootstrap, scaffold, and manage NyxStack backend services.
 
 - **cli** — Fluent CLI framework with automatic flag inheritance, type-safe args, lifecycle hooks, and full shell completion.  
 - **dotenv** — Strict, standards-accurate dotenv parser with expansion, escapes, struct unmarshalling, and typed env access.  
@@ -14,12 +19,13 @@ High-performance, zero-dependency Go libraries engineered for developers who wan
 - **openapi** — Programmatic OpenAPI 3.1 spec builder with reusable components and full generation.  
 - **color** — Zero-dependency ANSI color/styling for expressive terminal output.  
 - **scalarui** — Serve Scalar API Reference UI directly from Go with full customization.  
-- **i18n** — Zero-dependency internationalization system with extraction and pluralization.
-- **router** — HTTP router with first-class OpenAPI + documentation generation.  
-- **di** — Lightweight dependency-injection container for clean module wiring.  
-- **controller** — Fluent API/controller layer using Go structs + tags for a full backend framework.  
-- **orm** — Type-safe, high-performance ORM with automatic migrations and tooling.  
-- **nyx** — The CLI for bootstrapping and managing NyxStack-based backend services.
+- **i18n** — Zero-dependency internationalization with extraction, formatting, and pluralization.  
+- **router** — High-performance HTTP router with first-class OpenAPI generation and documentation syncing.  
+- **di** — Lightweight dependency-injection container for clean, modular service wiring.  
+- **controller** — Fluent controller/API layer using Go structs + tags for a full backend framework experience.  
+- **orm** — Type-safe, high-performance ORM with automatic migrations and developer tooling.  
+
+
 
 ## 🧩 Design Principles
 
