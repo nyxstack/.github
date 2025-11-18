@@ -14,6 +14,21 @@ Install the framework:
 go get github.com/nyxstack/nyx
 ```
 
+Or use the CLI to scaffold and manage projects:
+
+```bash
+go install github.com/nyxstack/nyx-cli/nyx@latest
+```
+
+Create and run your first app:
+
+```bash
+nyx init myapp
+cd myapp
+nyx run dev
+```
+
+
 **Focused, minimal, rock-solid Go packages:**
 
 - **nyx** — The complete NyxStack backend framework combining all modules into one unified developer experience.
